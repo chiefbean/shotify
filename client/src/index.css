@@ -1,0 +1,59 @@
+.playlistImgBg {
+    position: relative;
+    display: grid;
+    place-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    height: 100%;
+}
+.playlistImg {
+    z-index: 10;
+    overflow: hidden;
+    max-width: 80%;
+    max-height: 100%;
+}
+
+body {
+    background: #121212;
+    color: #fff;
+}
+
+.rswp__active, 
+._InfoRSWP, 
+.__mvqn38 {
+    display: none !important;
+}
+
+.scoreButton {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    background: #fff;
+    color: #000;
+    border: none;
+    border-radius: 50%;
+}
+
+.info-wrapper {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+.info-card {
+    padding: 20px;
+    width: 60%;
+    color: #fff;
+    background: #212121;
+    border-radius: 10px;
+    z-index: 10;
+    max-height: 50vh;
+}
